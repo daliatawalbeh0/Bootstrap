@@ -9,30 +9,36 @@
     
   </head>
   <body>
-    <form>
-        <div class="mb-3">
-          <label for="fn" class="form-label">First name:</label>
+    <form class="m-3">
+        <div class="">
+          <label for="fn" class="form-label fw-bold">First Name:</label>
           <input type="text" class="form-control" id="fn" aria-describedby="text">
         </div>
+        <br>
         <div class="mb-3">
-          <label for="ln" class="form-label">last name</label>
+          <label for="ln" class="form-label fw-bold">Last Name:</label>
           <input type="text" class="form-control" id="ln">
         </div>
-        <div class="form-check">
+        <div class="d-flex flex-row">
+        <div class="form-check ">
             <input class="form-check-input" type="radio" name="rg" id="rg1">
             <label class="form-check-label" for="rg1">
               Male
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="rg" id="rg2" checked>
+            <input class="form-check-input ms-2" type="radio" name="rg" id="rg2" checked>
             <label class="form-check-label" for="rg2">
               Female
             </label>
           </div>
+        </div>
           <br>
         <div class="mb-3">
-            <label for="exampleinput date" class="form-label">Date of Birthday</label>
+            <label for="exampleinput date " class="form-label fw-bold">Date of Birthday:</label>
             <input type="date" class="form-control" id="Date" aria-describedby="Date">
+          </div>
+          <div>
+            <button class="btn btn-primary" type="submit">Add</button>
           </div>
         </body>
